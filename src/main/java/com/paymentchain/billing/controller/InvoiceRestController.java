@@ -63,6 +63,7 @@ public class InvoiceRestController {
         return irspm.InvoiceToInvoiceRespose(get);
     }
     
+    int a = 4;
     @PutMapping("/{id}")
     public ResponseEntity<?> put(@PathVariable String id, @RequestBody InvoiceRequest input) {
        Invoice save = null; 
