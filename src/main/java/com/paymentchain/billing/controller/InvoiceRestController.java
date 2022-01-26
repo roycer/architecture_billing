@@ -39,7 +39,7 @@ public class InvoiceRestController {
     
     @Autowired
     InvoiceRepository billingRepository;
-    
+    int a = 0;
     @Autowired
     InvoiceRequestMapper irm;
     
